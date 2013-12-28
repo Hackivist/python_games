@@ -7,9 +7,9 @@ print("Hello! What is your name?")
 
 myName= raw_input()
 
-number = random.randint(1,20)
+number = random.randint(1,50)
 
-print("Well, "+myName+ ",I am thinking of a number between 1 and 20.")
+print("Well, "+myName+ ",I am thinking of a number between 1 and 50.")
 
 while guessesTaken < 6:
 	print("Take a guess.")
